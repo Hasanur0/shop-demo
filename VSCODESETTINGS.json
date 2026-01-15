@@ -1,0 +1,123 @@
+{
+    "editor.fontFamily": "'JetBrains Mono','Fira Code','Source Code Pro','Menlo Regular','Space Mono', 'Victor Mono','Cascadia Code' ",
+    "editor.codeLensFontFamily": "'Fira Code iScript'",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    // the following elements will be in italic
+                    //   (=Fira Code iScript)
+                    "comment",
+                    "keyword.control.import.js", // import
+                    "keyword.control.export.js", // export
+                    "keyword.control.from.js", // from
+                    // "constant", // String, Number, Boolean…, this, super
+                    "storage.modifier", // static keyword
+                    "storage.type.class", // class keyword
+                    "storage.type.php", // typehints in methods keyword
+                    "keyword.other.new.php", // new
+                    "entity.other.attribute-name", // html attributes
+                    "fenced_code.block.language.markdown" // markdown language modifier
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    // the following elements will be displayed in bold
+                    "entity.name.type.class" // class names
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    // the following elements will be displayed in bold and italic
+                    "entity.name.section.markdown" // markdown headlines
+                ],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    // the following elements will be excluded from italics
+                    //   (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json",
+                    "comment.block",
+                    "entity.other.attribute-name.class.css"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "prettier.semi": false,
+    "terminal.integrated.fontSize": 16,
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500
+    },
+    "editor.cursorWidth": 2,
+    "terminal.integrated.cursorStyle": "line",
+    "tailwindCSS.emmetCompletions": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.accessibilitySupport": "off",
+    "workbench.editor.enablePreview": false,
+    "editor.rename.enablePreview": false,
+    "editor.minimap.autohide": true,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "prettier.tabWidth": 4,
+    "editor.scrollbar.verticalScrollbarSize": 1,
+    "editor.guides.bracketPairs": true,
+    "editor.letterSpacing": 1,
+    "markdown.preview.fontSize": 16,
+    "markdown.preview.lineHeight": 3,
+    "workbench.panel.defaultLocation": "right",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "reactSnippets.settings.importReactOnTop": false,
+    "files.autoSaveDelay": 10000,
+    "files.autoSave": "onFocusChange",
+    "eslint.run": "onSave",
+    "scm.diffDecorations": "none",
+    "fonted.font": "Outfit",
+    "editor.smoothScrolling": true,
+    "editor.fontSize": 17,
+    "editor.cursorBlinking": "expand",
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Evondev Tailwind Theme Italic",
+    "bitoAI.codeCompletion.enableAutoCompletion": true,
+    "bitoAI.codeCompletion.enableCommentToCode": true,
+    "editor.inlineSuggest.showToolbar": "onHover",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.detectIndentation": false,
+    "npm-intellisense.scanDevDependencies": true,
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "top",
+    "editor.lineHeight": 32,
+    "typescript.suggest.autoImports": false,
+    "autoimport.filesToScan": "**/*.{js,jsx}",
+    "editor.linkedEditing": true
+}
